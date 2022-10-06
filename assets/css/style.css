@@ -119,7 +119,7 @@ html {
     position: relative;
     margin-top: 65px;
     padding-top: 50%;
-    background: url('/assets/img/IMG_1144.JPG');
+    background: url(/assets/img/IMG_1144.JPG);
     background-size: 100%;
     background-repeat: no-repeat;
     
