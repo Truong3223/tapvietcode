@@ -1,0 +1,280 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+1. Từ ngoài vào trong
+2. Trên xuống dưới
+3. Tổng quan đến chi tiết
+ */
+
+/* 
+1.Vị trí 
+2.Kích thước
+3.Màu sắc
+4.Kiểu dáng ( kiểu chữ, hình tròn,...)
+*/
+
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+#main {
+
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 46px;
+    background-color: rgb(136, 55, 105);
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+#nav > li {
+    display: inline-block;
+}
+#nav li {
+   position: relative;
+}
+
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav > li:hover > a, 
+#nav .subnav li:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav {
+    display: none;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+
+}
+
+#nav .nav-arrow-down {
+    font-size: 14px;
+}
+
+#header .search-btn {
+    float: right;
+    padding: 0 21px;
+}
+
+#header .search-btn:hover {
+    cursor: pointer;
+    background-color: #f44336;
+}
+
+#header .search-icon {
+    color:#fff;
+    font-size: 20px;
+    line-height: 46px;
+}
+#slider {
+    position: relative;
+    margin-top: 65px;
+    padding-top: 50%;
+    background: url('/assets/img/IMG_1144.JPG');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+   
+}
+
+#slider .text-content {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.527);
+    bottom: 47px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+#slider .text-heading {
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+#slider .text-description {
+    font-size: 30px;
+}
+
+#content {
+}
+
+#content .content-section {
+    width: 800px;
+    padding: 64px o;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    padding-top: 80px;
+
+
+}
+#content .section-sub-heading {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+}
+#content .about-text {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.4;
+    /* margin-top: auto; */
+}
+
+#content .members-list {
+    margin-top: 48px;
+    /* margin-top: 75px; */
+}
+
+#content .member-item {
+    float: left;
+    width: calc(100% / 7);
+    tetext-align: center;
+}
+
+#content .member-name {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    background: #ccc;
+}
+
+#content .member-img {
+    width: 110px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.tour-section {
+    /* background: url(/assets/img/BLQK1087.JPEG); */
+    /* background: #000; */
+    background: rgb(136, 55, 105)
+}
+
+
+.tickets-list {
+    margin-top: 40px;
+    list-style: none;
+    background-color: #fff;
+}
+
+.tickets-list li {
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tickets-list .sold-out {
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px;
+}
+
+.tickets-list .quantity {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -3px;
+}
+
+
+.places-list {
+    margin-top: 32px;
+}
+.place-item {
+
+}
+.place-img {
+
+}
+.place-body {
+
+}
+.palce-heading {
+
+}
+.place-time {
+
+}
+.place-desc {
+
+}
+.place-buy-btn {
+
+}
+
+
+#footer {
+
+}
